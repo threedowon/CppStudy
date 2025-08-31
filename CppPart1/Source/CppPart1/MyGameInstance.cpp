@@ -3,3 +3,9 @@
 
 #include "MyGameInstance.h"
 
+void UMyGameInstance::Init()
+{
+	Super::Init();
+
+	UE_LOG(LogTemp, Log, TEXT("%s"), TEXT("Hello Unreal!"));
+}

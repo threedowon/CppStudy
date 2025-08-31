@@ -13,5 +13,8 @@ UCLASS()
 class CPPPART1_API UMyGameInstance : public UGameInstance
 {
 	GENERATED_BODY()
+
+public:
+	virtual void Init() override;
 	
 };
