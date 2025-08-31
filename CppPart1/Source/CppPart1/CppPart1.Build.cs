@@ -2,13 +2,13 @@
 
 using UnrealBuildTool;
 
-public class StudyCpp : ModuleRules
+public class CppPart1 : ModuleRules
 {
-	public StudyCpp(ReadOnlyTargetRules Target) : base(Target)
+	public CppPart1(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
